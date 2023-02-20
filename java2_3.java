@@ -24,5 +24,11 @@ class Main{
         System.out.println("凶です");
         break;
     }
+
+    // while文を用いて、numberが0より大きい場合に繰り返す、繰り返し処理を作ってください
+    while (0 < number){
+      System.out.println(number);
+      number--;
+    }
   }
 }
