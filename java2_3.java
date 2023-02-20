@@ -10,7 +10,7 @@ class Main{
       System.out.println("20以上");
     }
 
-    int n = 1;
+    int n = 0;
 
     // switch文を用いて、変数nの値に応じて条件分岐をしてください
     switch (n){
@@ -19,6 +19,9 @@ class Main{
         break;
       case 2:
         System.out.println("吉です");
+        break;
+      default:
+        System.out.println("凶です");
         break;
     }
   }
