@@ -24,5 +24,8 @@ class Main {
     String[] names = {"KASIMA","yuuki","bety"};
 
     System.out.println(names[1]);
+
+    names[1] = "YUUKI";
+    System.out.println(names[1]);
   }
 }
