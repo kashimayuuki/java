@@ -21,5 +21,8 @@ class Main {
 
       System.out.println(j);
     }
+    String[] names = {"KASIMA","yuuki","bety"};
+
+    System.out.println(names[1]);
   }
 }
