@@ -11,5 +11,22 @@ class Main {
     for (String name:names){
       System.out.println("私の名前は"+name+"です");
     }
+
+    int[] numbers = {1,4,5,8,9,13,2,14,};
+
+    int oddSum = 0 ;
+
+    int evenSum = 0 ;
+
+    for(int number: numbers){
+      if(number % 2 == 0){
+        evenSum += number ;
+      }else{
+        oddSum += number ;
+      }
+    }
+
+    System.out.println("偶数の合計は"+evenSum);
+    System.out.println("奇数の合計は"+oddSum);
   }
 }
