@@ -1,6 +1,6 @@
 import java.lang.Math;
 
-class Person{
+class Person1{
   public static void printData(String name, int age, double height, double weight) {
   System.out.println("私の名前は" + name + "です");
   System.out.println("年齢は" + age + "歳です");
