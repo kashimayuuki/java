@@ -1,11 +1,9 @@
-import java.lang.Math;
-
-class Person{
+class Person {
   public static void printData(String name, int age, double height, double weight) {
   System.out.println("私の名前は" + name + "です");
   System.out.println("年齢は" + age + "歳です");
-  System.out.println("身長は" + height + "歳です");
-  System.out.println("体重は" + weight + "歳です");
+  System.out.println("身長は" + height + "mです");
+  System.out.println("体重は" + weight + "kgです");
 
   double bmi = bmi(height,weight);
 

@@ -24,7 +24,8 @@ class Main{
 
     double weight = scanner.nextDouble();
 
-    Person.printDate(Person.fullName(firstName, lastName), age, height, weight);
+    //エラー部分
+    Person.printData(Person.fullName(firstName, lastName), age, height, weight);
 
   }
 }
