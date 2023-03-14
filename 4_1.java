@@ -1,5 +1,13 @@
+import java.util.Scanner;
+
 class Main {
   public static void main(String[]args){
-    System.out.println("名前は鹿嶋です");
+    Scanner scanner = new Scanner(System.in);
+
+    System.out.print("名前は: ");
+    String firstName = scanner.next();
+
+
+    System.out.println("名前は" +firstName+ "です");
   }
 }
